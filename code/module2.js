@@ -1,13 +1,10 @@
-Salem
 
-Eric
+var namesArray = ["Salem","Eric","Shawn","Owen","Dan","Spencer"];
 
-Shawn
+function logNames(arr){
+  for (var i=0; i<arr.length; i++){
+    console.log(arr[i]);
+  }
+}
 
-Owen
-
-Dan
-
-Christian
-
-Spencer
+logNames(namesArray);
