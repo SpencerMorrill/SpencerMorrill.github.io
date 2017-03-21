@@ -1,6 +1,6 @@
 pre {
  background-color: blue;
- background-image:url("images/javas.png");
+ background-image:"images/javas.png";
  border-style:ridge;
 }
 p {
