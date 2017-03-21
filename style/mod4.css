@@ -1,12 +1,12 @@
 pre {
- background-color: blue;
- border-style:inset;
+ background-color: light-blue;
+ border-style:ridge;
 }
 p {
- background-color: blue;
- border-style:inset;
+ background-color: light-blue;
+ border-style:ridge;
 }
 body {
- background-color: blue;
- border-style:inset;
+ background-color: light-blue;
+ border-style:ridge;
 }
