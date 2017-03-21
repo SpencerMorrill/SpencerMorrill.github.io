@@ -1,13 +1,13 @@
 pre {
- background-color: light-blue;
+ background-color: blue;
  background-image:url('images/javas.png');
  border-style:ridge;
 }
 p {
- background-color: light-blue;
+ background-color: blue;
  border-style:ridge;
 }
 body {
- background-color: light-blue;
+ background-color: blue;
  border-style:ridge;
 }
