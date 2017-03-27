@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="3" desc="" eventsnippetid="49" extheight="384" extwidth="1312" extx="-32" exty="-32" format="3.4.0" gravx="-0.0" gravy="105.0" height="320" id="1" name="Main Copy" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1248">
+    <layers>
+        <grad-bg b1="153" b2="51" g1="153" g2="51" r1="153" r2="51"/>
+        <layer blendMode="normal" color="0,0,255" id="1" locked="false" name="Layer 1" opacity="100" order="2" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="0,255,0" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions/>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="false" group="0" id="3" name="Player 1" sx="1.0" sy="1.0" x="60" y="188" z="0"/>
+        <actor a="0.0" aid="5" c="false" group="3" id="23" name="LeftButton 5" sx="1.0" sy="1.0" x="17" y="253" z="0"/>
+        <actor a="0.0" aid="6" c="false" group="3" id="78" name="RightButton 6" sx="1.0" sy="1.0" x="86" y="253" z="0"/>
+        <actor a="0.0" aid="7" c="false" group="3" id="76" name="ActionButton 7" sx="1.0" sy="1.0" x="414" y="253" z="2"/>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="16,768.0,320.0,704.0,320.0,704.0,224.0,672.0,224.0,672.0,256.0,640.0,256.0,640.0,320.0,0.0,320.0,0.0,0.0,1248.0,0.0,1248.0,320.0,832.0,320.0,832.0,224.0,800.0,224.0,800.0,256.0,768.0,256.0" x="0.0" y="0.0"/>
+        <p pts="4,0.0,32.0,0.0,0.0,96.0,0.0,96.0,32.0" x="160.0" y="128.0"/>
+        <p pts="48,768.0,192.0,768.0,160.0,800.0,160.0,800.0,128.0,960.0,128.0,960.0,192.0,992.0,192.0,992.0,256.0,1152.0,256.0,1152.0,224.0,1184.0,224.0,1184.0,96.0,1152.0,96.0,1152.0,64.0,1184.0,64.0,1184.0,0.0,1088.0,0.0,1088.0,128.0,1120.0,128.0,1120.0,160.0,1088.0,160.0,1088.0,192.0,1056.0,192.0,1056.0,0.0,0.0,0.0,0.0,192.0,64.0,192.0,64.0,160.0,96.0,160.0,96.0,128.0,128.0,128.0,128.0,192.0,288.0,192.0,288.0,160.0,320.0,160.0,320.0,128.0,448.0,128.0,448.0,160.0,512.0,160.0,512.0,128.0,608.0,128.0,608.0,192.0,640.0,192.0,640.0,160.0,672.0,160.0,672.0,128.0,736.0,128.0,736.0,192.0" x="32.0" y="32.0"/>
+        <p pts="4,64.0,0.0,64.0,32.0,0.0,32.0,0.0,0.0" x="256.0" y="96.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
