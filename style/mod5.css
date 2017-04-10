@@ -1,1 +1,13 @@
-//
+pre {
+ background-color: red;
+ background-image:"images/javas.png";
+ border-style:ridge;
+}
+p {
+ background-color: red;
+ border-style:ridge;
+}
+body {
+ background-color: red;
+ border-style:ridge;
+}
