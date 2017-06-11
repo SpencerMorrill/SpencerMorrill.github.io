@@ -1,11 +1,31 @@
-# Multi-step equations
+# Arrays
 
-34+5+12-40
+    var javaArray = ["M","E","M","E","S"];
 
-23-7-9+70
+function logjava(arr){
+  for (var i=0; i<arr.length; i++){
+    console.log(arr[i]);
+  }
+}
 
-62+90+100+20-75
+logjava(numberArray);
 
-45+6-3-3-3-3-4
+    var javaArray = ["C","O","M","P","U","T","E","R,","G","A","M","I","N","G","D","E","V","E","L","O","P","M","E","N","T"];
 
-100-80+200+150+100-50
+function logjava(arr){
+  for (var i=0; i<arr.length; i++){
+    console.log(arr[i]);
+  }
+}
+
+logjava(numberArray);
+
+    var javaArray = ["C","O","D","E"];
+
+function logjava(arr){
+  for (var i=0; i<arr.length; i++){
+    console.log(arr[i]);
+  }
+}
+
+logjava(numberArray);
