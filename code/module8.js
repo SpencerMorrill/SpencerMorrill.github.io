@@ -1,31 +1,27 @@
-# Arrays
+#Functions
 
-    var javaArray = ["M","E","M","E","S"];
-
-function logjava(arr){
-  for (var i=0; i<arr.length; i++){
-    console.log(arr[i]);
-  }
+function listPrimes( nPrimes ) {
+   let primes = [ ];
+   for( var n = 2;  nPrimes > 0;  n++ ) {
+       if( isPrime(n) ) {
+           primes.push( n );
+           --nPrimes;
+       }
+   }
+   return primes;
 }
 
-logjava(numberArray);
-
-    var javaArray = ["C","O","M","P","U","T","E","R,","G","A","M","I","N","G","D","E","V","E","L","O","P","M","E","N","T"];
-
-function logjava(arr){
-  for (var i=0; i<arr.length; i++){
-    console.log(arr[i]);
-  }
+function isPrime( n ) {
+   let max = Math.sqrt(n);
+   for( var i = 2;  i <= max;  i++ ) {
+       if( n % i === 0 )
+           return false;
+   }
+   return true;
 }
 
-logjava(numberArray);
-
-    var javaArray = ["C","O","D","E"];
-
-function logjava(arr){
-  for (var i=0; i<arr.length; i++){
-    console.log(arr[i]);
-  }
-}
-
-logjava(numberArray);
+var firstHundredPrimes = listPrimes(100);
+   
+for( var i = 0;  i <= firstHundredPrimes.length; i++){
+ console.log(firstHundredPrimes[ i ];
+}  
